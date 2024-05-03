@@ -16,9 +16,9 @@
 - **Javadoc Documentation:** https://nuricanozturk01.github.io/Zyfera-Assignment/
 - **Swagger Documentation:** http://localhost:8080/swagger-ui.html (in local)
 
-
 ## Test Results
 
-
+<img width="300" src="./images/test_results.png">
 
 ## Outputs
+
