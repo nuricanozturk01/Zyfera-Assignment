@@ -10,10 +10,20 @@ import org.springframework.web.context.request.WebRequest;
 
 import java.util.HashMap;
 
+/**
+ * Exception handler for validation errors
+ */
 @ControllerAdvice
 public class ValidationExceptionHandler
 {
-
+    /**
+     * Handles validation errors.
+     * This method handle the jakarta validation exceptions and return a response entity with the error message.
+     *
+     * @param exception The exception to handle
+     * @param request   The request
+     * @return The response entity
+     */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ResponseMessage<?>> customValidationErrorHandling(MethodArgumentNotValidException exception, WebRequest request)
     {

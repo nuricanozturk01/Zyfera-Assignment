@@ -1,0 +1,7 @@
+nuricanozturk.dev.management.student
+nuricanozturk.dev.management.student.controller
+nuricanozturk.dev.management.student.dal
+nuricanozturk.dev.management.student.exceptionhandler
+nuricanozturk.dev.management.student.mapper
+nuricanozturk.dev.management.student.repository
+nuricanozturk.dev.management.student.service

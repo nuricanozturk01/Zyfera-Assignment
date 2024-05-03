@@ -7,6 +7,9 @@ import jakarta.validation.constraints.Size;
 
 import java.util.List;
 
+/**
+ * DTO for creating a student
+ */
 public class StudentCreateDTO
 {
     @NotNull(message = "Name cannot be null")

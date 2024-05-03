@@ -33,6 +33,7 @@ public class Student
     @Override
     public boolean equals(Object other)
     {
+        // Used pattern matching with java version 17
         return other instanceof Student s &&
                 m_studentId.equals(s.m_studentId) &&
                 m_name.equals(s.m_name) &&

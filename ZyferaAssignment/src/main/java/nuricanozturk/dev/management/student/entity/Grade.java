@@ -38,6 +38,7 @@ public class Grade
     @Override
     public boolean equals(Object other)
     {
+        // Used pattern matching with java version 17
         return other instanceof Grade g &&
                 m_id == g.m_id &&
                 m_code.equals(g.m_code) &&
